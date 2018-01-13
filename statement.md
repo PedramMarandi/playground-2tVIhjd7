@@ -42,6 +42,16 @@ function aboutMe(withAge) {
 console.log(aboutMe(true));
 ```
 
+```javascript runnable
+    let result = 0;
+    for(let i = 0; i <= 10; i++) {
+        console.log("~ current value of result is " + result);
+        result = result + i;
+    }
+
+    return result;
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Node.js template](https://tech.io/select-repo/442)
