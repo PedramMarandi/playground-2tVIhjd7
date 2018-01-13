@@ -23,7 +23,7 @@ function showWeather() {
   return weather;
 }
 
-showWeather();
+console.log(showWeather());
 ```
 
 # Advanced usage
