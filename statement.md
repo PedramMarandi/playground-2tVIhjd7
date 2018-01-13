@@ -6,7 +6,7 @@ This Node.js template lets you get started quickly with a simple one-page playgr
 console.log('Hello World!');
 ```
 
-```javascript runable
+```javascript runnable
 function getHumidity() {
   // function's logic is not ready yet, so we just write a valid value
   return 78;
