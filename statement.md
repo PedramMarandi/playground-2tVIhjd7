@@ -26,6 +26,22 @@ function showWeather() {
 console.log(showWeather());
 ```
 
+```javascript runnable
+function aboutMe(withAge) {
+    let name = "Pedram Marandi";
+    if(withAge === true) {
+        name += " 22";
+        console.log("~~ withAge is true and block has Executed");
+    }
+    if(withAge === false ) {
+        console.log("~~ withAge is false and there is not any name")
+    }
+
+    return name;
+}
+console.log(aboutMe(true));
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Node.js template](https://tech.io/select-repo/442)
