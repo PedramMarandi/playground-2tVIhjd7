@@ -60,6 +60,15 @@ console.log(aboutMe(true));
     return result;
 ```
 
+```javascript runnable
+    function printMyName() {
+        var myName = 'Pedram Marandi';
+        console.log(' Inside the function myName value is ~>' + myName);
+    }
+
+    console.log('Outside the function myName value is ~>' + myName);
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Node.js template](https://tech.io/select-repo/442)
