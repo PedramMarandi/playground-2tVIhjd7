@@ -43,6 +43,14 @@ console.log(aboutMe(true));
 ```
 
 ```javascript runnable
+   function square(a) {
+       return a * a;
+   }
+
+   console.log(square(5));
+```
+
+```javascript runnable
     let result = 0;
     for(let i = 0; i <= 10; i++) {
         console.log("~ current value of result is " + result);
