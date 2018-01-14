@@ -91,6 +91,13 @@ console.log(aboutMe(true));
     myFunction();
 ```
 
+```javascript runnable
+    function sum(a, b) {
+        return a + b;
+    }
+    console.log(sum(4 + 6));
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Node.js template](https://tech.io/select-repo/442)
