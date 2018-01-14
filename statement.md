@@ -99,6 +99,10 @@ console.log(aboutMe(true));
     console.log(sum(4 + 6));
 ```
 
+```javascript runnable
+
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Node.js template](https://tech.io/select-repo/442)
