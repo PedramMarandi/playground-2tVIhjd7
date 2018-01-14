@@ -69,6 +69,15 @@ console.log(aboutMe(true));
     console.log('Outside the function myName value is ~>' + myName);
 ```
 
+```javascript runnable
+    var globalVariable = 'I am a global var';
+    function accessToGlobal() {
+        console.log('Global variable is accessible within the inner functions ~> ' + globalVariable);
+    }
+
+    console.log('Global variable is accessible everywhere ~> ' + globalVariable);
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Node.js template](https://tech.io/select-repo/442)
