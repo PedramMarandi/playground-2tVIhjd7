@@ -78,6 +78,19 @@ console.log(aboutMe(true));
     console.log('Global variable is accessible everywhere ~> ' + globalVariable);
 ```
 
+```javascript runnable
+    function myFunction() {
+        console.log('This is the first function');
+    }
+```
+
+```javascript runnable
+    function myFunction() {
+        console.log('This is the first function');
+    }
+    myFunction();
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Node.js template](https://tech.io/select-repo/442)
