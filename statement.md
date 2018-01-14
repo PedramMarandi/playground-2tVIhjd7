@@ -103,6 +103,17 @@ console.log(aboutMe(true));
 
 ```
 
+```javascript runnable
+    function getMyName() {
+        throw new Error('An error has occured');
+    }
+    try {
+        console.log(getMyName());
+    } catch(e) {
+        console.log(e.message);
+    }
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Node.js template](https://tech.io/select-repo/442)
