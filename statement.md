@@ -133,6 +133,33 @@ function showWeather() {
 }
 ```
 
+```javascript runnable
+function getName(code) {
+    if (code === 1) {
+        return 'Pedram';
+    } else if (code === 2) {
+        return 'Ronald';
+    }
+    return 'Utsav';
+}
+console.log(getName());
+```
+
+```javascript runnable
+function getName(code) {
+    let name;
+    let flag = false;
+    if (code === 1) {
+        name = 'Pedram';
+    } else if (code === 2) {
+        flag = true;
+        name = 'Ronald';
+    }
+    console.log(flag);
+    return name;
+}
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Node.js template](https://tech.io/select-repo/442)
